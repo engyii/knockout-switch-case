@@ -1,5 +1,6 @@
 {
   "name": "knockout-switch-case",
+  "description": "Switch/Case for Knockout.js",
   "main": "knockout-switch-case.js",
   "version" : "2.2.0",
   "repository": {
