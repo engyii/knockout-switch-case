@@ -6,7 +6,11 @@
  */
 
 (function (root, factory) {
-    if (typeof define === 'function' && define.amd) {
+    if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+        // Node.js case - load KO synchronously
+        var ko = require('knockout');
+        factory(ko);
+    } else if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
         define(['knockout'], factory);
     } else {
