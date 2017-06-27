@@ -1,5 +1,9 @@
 {
   "name": "knockout-switch-case",
   "main": "knockout-switch-case.js",
-  "version" : "2.2.0"
+  "version" : "2.2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/engyii/knockout-switch-case.git"
+  }
 }
